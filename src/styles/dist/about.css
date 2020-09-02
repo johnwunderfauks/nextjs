@@ -1,0 +1,424 @@
+#about .page-banner {
+  height: 85vh;
+}
+#about .page-banner .about-header-text {
+  position: absolute;
+  left: 10%;
+  top: 20vh;
+  color: #c9cbcd;
+  font-size: 60px;
+  line-height: 74px;
+  letter-spacing: 0.003em;
+  margin: 0;
+}
+#about .page-banner .about-title {
+  color: #7c8080;
+  position: absolute;
+  left: 10%;
+  top: 45vh;
+  line-height: 28px;
+}
+#about #about-1 {
+  position: relative;
+  padding: 10%;
+  text-align: right;
+}
+#about #about-1 img {
+  z-index: 1;
+  position: relative;
+  margin-top: -300px;
+}
+#about #about-1 #about-1-block-p {
+  padding: 55px;
+}
+#about #about-1 #about-1-block {
+  text-align: left;
+  width: 50%;
+  margin-top: -130px;
+  position: relative;
+  background-color: #51585d;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 100px;
+}
+#about #about-1 #about-1-block h2 {
+  line-height: 32px;
+  width: 80%;
+}
+#about #about-1 #about-1-block hr {
+  border: 0;
+  border-top: 2px solid #f3b640;
+  width: 50px;
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+#about #about-1 #about-1-block h5 {
+  margin-bottom: 5px;
+}
+#about #about-1 #about-1-block p {
+  color: #f3b640;
+  margin: 0 auto 0px;
+  line-height: 23px;
+}
+#about #about-1 #about-1-num {
+  width: 48%;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+}
+#about #about-1 #about-1-num .nums {
+  color: #3b4349;
+}
+#about #about-1 #about-1-num .nums .num {
+  font-family: "EB Garamond", serif;
+  font-size: 60px;
+  line-height: 74px;
+  margin: 16px auto;
+  font-weight: bold;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.05em;
+}
+#about #about-1 #about-1-num .nums .detail {
+  display: inline-block;
+  color: #7c8080;
+  width: 69%;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 22px;
+  letter-spacing: 0.435em;
+  font-size: 15px;
+}
+#about #about-2 {
+  background-color: #e0e1e1;
+  height: auto;
+  padding-top: 80px;
+}
+#about #about-2 .left {
+  width: 50%;
+  display: inline-block;
+  margin-top: 151px;
+  margin-right: 5%;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+#about #about-2 .left img {
+  position: relative;
+  bottom: -70px;
+}
+#about #about-2 .right {
+  width: 45%;
+  vertical-align: top;
+  display: inline-block;
+}
+#about #about-2 .right .content {
+  padding: 20px;
+}
+#about #about-2 .right .content h4 {
+  color: #3b4349;
+  font-size: 42px;
+  line-height: 60px;
+  font-family: "EB Garamond", serif;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+#about #about-2 .right .content p {
+  font-size: 18px;
+  line-height: 32px;
+}
+#about #about-2 .right .content:nth-child(2) h4 {
+  margin-top: 0;
+}
+#about #about-3 {
+  background-color: #141516;
+}
+#about #about-3 #about-3-2 {
+  padding: 10% 10% 0%;
+  text-align: center;
+}
+#about #about-3 #about-3-2 h4 {
+  color: #abadaf;
+  letter-spacing: 0.56em;
+  font-size: 19px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+#about #about-3 #about-3-2 #about-3-2-1,
+#about #about-3 #about-3-2 #about-3-2-2,
+#about #about-3 #about-3-2 #about-3-2-3,
+#about #about-3 #about-3-2 #about-3-2-4,
+#about #about-3 #about-3-2 #about-3-2-5,
+#about #about-3 #about-3-2 #about-3-2-6 {
+  display: inline-block;
+  vertical-align: top;
+  border-right: none;
+  cursor: pointer;
+  user-select: none;
+  padding: 0 5px;
+}
+#about #about-3 #about-3-2 h2 {
+  margin: 0;
+  font-size: 60px;
+  line-height: 69px;
+  letter-spacing: 0.08em;
+  color: #676d71;
+  font-weight: 500;
+}
+#about #about-3 #about-3-2 p {
+  color: #7c8080;
+}
+#about #about-3 .about-3-content {
+  background-color: #141516;
+  padding: 0% 10%;
+  text-align: center;
+}
+#about #about-3 .about-3-content h5 {
+  color: #f3b640;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 48px;
+  letter-spacing: 0.007em;
+  margin-bottom: 12px;
+  margin-top: 40px;
+}
+#about #about-3 .about-3-content p {
+  color: #7c8080;
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.007em;
+}
+#about #about-4 {
+  background-color: white;
+  margin-top: -200px;
+  padding: 250px 10% 5%;
+}
+#about #about-4 h2 {
+  color: #3b4349;
+  font-size: 60px;
+  line-height: 74px;
+  letter-spacing: 0.0025em;
+  font-weight: 500;
+}
+#about #about-4 .left-1,
+#about #about-4 .right-2 {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
+}
+#about #about-4 .right-2 .right-p {
+  padding-left: 0;
+}
+#about #about-4 .right-2 h2 {
+  color: #3b4349;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 35px;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.0053em;
+}
+#about #about-4 .right-2 p {
+  width: 80%;
+}
+#about #about-4 .right-p {
+  padding: 60px;
+}
+#about #about-4 .right-p p {
+  color: #7c8080;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.007em;
+}
+#about #about-4 .right-1,
+#about #about-4 .left-2 {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  margin-top: 15vh;
+}
+#about #about-4 .right-1 h2,
+#about #about-4 .left-2 h2 {
+  color: #3b4349;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 35px;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.0053em;
+}
+
+@media (max-width: 768px) {
+  #about .page-banner .about-header-text {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.002em;
+    top: 100px;
+    left: 20px;
+  }
+  #about .page-banner .about-title {
+    top: 180px;
+    left: 20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #about #about-1 {
+    padding: 0;
+    padding-bottom: 30px;
+    margin-top: -150px;
+  }
+  #about #about-1 img {
+    margin-top: 0;
+    width: 100%;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 20px;
+  }
+  #about #about-1 #about-1-block {
+    width: 100%;
+    margin-top: 0;
+    top: 150px;
+    padding-bottom: 0;
+  }
+  #about #about-1 #about-1-block h2 {
+    width: 100%;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+  }
+  #about #about-1 #about-1-block hr {
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  #about #about-1 #about-1-block-p {
+    padding-top: 70px;
+    text-align: center;
+  }
+  #about #about-1 #about-1-num {
+    margin-top: 200px;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  #about #about-1 #about-1-num .nums .num {
+    font-size: 60px;
+    line-height: 74px;
+    width: 100%;
+  }
+  #about #about-1 #about-1-num .nums .detail {
+    width: 100%;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 20px;
+    letter-spacing: 0.44em;
+  }
+  #about #about-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  #about #about-2 .left {
+    order: 2;
+    width: 100%;
+    width: 100%;
+    order: 2;
+    margin-top: 0;
+    max-width: 90%;
+    height: auto;
+  }
+  #about #about-2 .left img {
+    bottom: -30px;
+  }
+  #about #about-2 .right {
+    order: 1;
+    width: 100%;
+  }
+  #about #about-2 .right .content h4 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  #about #about-2 .right .content p {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.07em;
+  }
+  #about #about-3 #about-3-2 {
+    padding-top: 20%;
+  }
+  #about #about-3 #about-3-2 h4 {
+    font-size: 10.5px;
+    line-height: 21px;
+  }
+  #about #about-3 #about-3-2 #about-3-2-1 h2,
+#about #about-3 #about-3-2 #about-3-2-2 h2,
+#about #about-3 #about-3-2 #about-3-2-3 h2,
+#about #about-3 #about-3-2 #about-3-2-4 h2,
+#about #about-3 #about-3-2 #about-3-2-5 h2,
+#about #about-3 #about-3-2 #about-3-2-6 h2 {
+    font-size: 41px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+  }
+  #about #about-3 .about-3-content {
+    margin-bottom: 80px;
+  }
+  #about #about-3 .about-3-content h5 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #about #about-3 .about-3-content p {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #about #about-3 .about-3-content img {
+    position: relative;
+    bottom: -40px;
+  }
+  #about #about-4 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  #about #about-4 h2 {
+    font-size: 23px;
+    line-height: 29px;
+    letter-spacing: 0.002em;
+  }
+  #about #about-4 .left-1 {
+    width: 100%;
+  }
+  #about #about-4 .left-2 {
+    width: 100%;
+  }
+  #about #about-4 .right-1 {
+    width: 100%;
+  }
+  #about #about-4 .right-1 h2 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  #about #about-4 .right-2 {
+    width: 100%;
+  }
+  #about #about-4 .right-2 h2 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  #about #about-4 .right-p {
+    padding: 0;
+  }
+  #about #about-4 .right-p p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,66 @@
+#pre-loader {
+  background-color: #000;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  #pre-loader canvas {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+    margin-left: -750px; }
+  #pre-loader p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: "EB Garamond", serif; }
+  #pre-loader .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; }
+  #pre-loader button {
+    height: 3em;
+    width: 6em;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: black; }
+  #pre-loader button:hover {
+    color: black;
+    background-color: #00baff; }
+  #pre-loader button:focus {
+    border: 1px solid #00baff; }
+  #pre-loader button:active {
+    background-color: #1f1f1f;
+    color: white; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+@media (max-width: 768px) {
+  canvas {
+    width: 100% !important;
+    height: 100% !important; }
+  #pre-loader {
+    transform: scale(1); }
+    #pre-loader canvas {
+      left: 0;
+      margin-left: 0; } }

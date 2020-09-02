@@ -1,0 +1,152 @@
+@import "./variables.scss";
+
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+
+.faq {
+  background: white;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: -120px;
+  position: relative;
+
+  .faq-1 {
+    padding: 40px;
+    h3 {
+      font-family: $s-font;
+      color: #464748;
+      font-weight: 500;
+      margin-bottom: 40px;
+      font-size: 18px;
+      letter-spacing: 0.345em;
+      line-height: 24px;
+    }
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  // Layout
+  .row {
+    display: flex;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    .col {
+      flex: 1;
+      &:last-child {
+        margin-left: 1em;
+      }
+    }
+  }
+  /* Accordion styles */
+  .tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    position:relative;
+    // box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+  }
+  .tab {
+    width: 100%;
+    // color: white;
+    overflow: hidden;
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      
+      font-weight: bold;
+      cursor: pointer;
+      
+      &::after {
+        content: "";
+        transform: rotate(180deg);
+        position: absolute;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        background: transparent url('.././images/arrow-up.png') center/contain no-repeat;
+        transition: all 0.35s;
+      }
+    }
+    &-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: $midnight;
+      background: white;
+      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+  }
+  .tab-label {
+    color: #3b4349 !important;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: .0025em;
+    margin: 20px auto 20px;
+    font-family: $s-font;
+    max-width:90%;
+    margin-left:0;
+    padding-bottom:0;
+  }
+  .tab-content {
+    color: #7c8080 !important;
+    margin-top: 0;
+    font-size:18px;
+    line-height: 30px;
+    letter-spacing: .007em;
+    padding-left:30px;
+  }
+
+  .tab-seperator {
+    border-bottom: 1px solid #c0c2c377;
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+
+  // :checked
+  input:checked {
+    + .tab-label {
+      &::after {
+        transform: rotate(0);
+      }
+    }
+
+    ~ .tab-content {
+      max-height: 100vh;
+      padding-top: 0;
+      padding-bottom: 1em;
+    }
+  }
+}
+.faq-header-text {
+  top: 40vh;
+}
+
+
+@media (max-width: 768px) {
+  .faq-header-text {
+    top: 120px;
+  }
+  .faq {
+    width: 100%;
+    .faq-1 {
+      padding: 20px;
+      h3 {
+        font-size: 11px;
+        line-height: 15px;
+      }
+    }
+    .tab-label {
+      font-size: 18px;
+      line-height: 27px;
+      margin-top: 10px;
+    }
+    .tab-content {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}

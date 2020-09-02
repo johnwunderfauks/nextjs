@@ -1,0 +1,273 @@
+#contact .page-banner {
+  height: 85vh; }
+
+#contact .header-text {
+  font-size: 60px;
+  line-height: 74px; }
+
+.contact-main {
+  padding: 0 10%; }
+  .contact-main .google-map {
+    margin-top: -120px;
+    position: relative;
+    width: 100%;
+    height: 500px; }
+
+.contact-1 {
+  padding: 0 10% 0px 10%; }
+  .contact-1 h3 {
+    color: #3B4349;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 74px; }
+
+.contact-2 {
+  padding: 0 10%;
+  margin-bottom: 20px; }
+  .contact-2 .contact-2-1 {
+    display: inline-block;
+    width: 100%; }
+    .contact-2 .contact-2-1 .contact-2-1-1 {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 12px; }
+      .contact-2 .contact-2-1 .contact-2-1-1 .contact {
+        margin-bottom: 20px; }
+        .contact-2 .contact-2-1 .contact-2-1-1 .contact img {
+          width: 20px;
+          vertical-align: middle;
+          display: inline-block;
+          margin-right: 20px; }
+        .contact-2 .contact-2-1 .contact-2-1-1 .contact p {
+          margin-top: 0;
+          color: #7c8080;
+          font-family: "Source Sans Pro", sans-serif;
+          display: inline-block;
+          vertical-align: top;
+          margin: 0;
+          font-size: 16px;
+          line-height: 25px; }
+    .contact-2 .contact-2-1 .contact-2-1-2 {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top; }
+      .contact-2 .contact-2-1 .contact-2-1-2 *,
+      .contact-2 .contact-2-1 .contact-2-1-2 :before,
+      .contact-2 .contact-2-1 .contact-2-1-2 :after {
+        box-sizing: border-box; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .contact-info {
+        padding-bottom: 10px; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .contact-info p {
+          font-size: 12px;
+          font-weight: lighter; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn {
+        padding: 15px;
+        background-color: transparent;
+        color: #ffc300;
+        font-weight: bold;
+        border-radius: 8px;
+        margin-left: 10px;
+        border-color: black;
+        position: relative;
+        text-indent: -9999px;
+        border-color: transparent;
+        line-height: 1;
+        height: 30px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn:before, .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn:after {
+          content: "";
+          display: block;
+          position: absolute;
+          border-top: 1px solid #ffc300;
+          width: 15px;
+          height: 1px;
+          transform: rotate(45deg);
+          top: 14px;
+          left: 7px;
+          transition: all .3s ease; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn:after {
+          transform: rotate(128deg); }
+        .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn:hover:before {
+          transform: rotate(-45deg); }
+        .contact-2 .contact-2-1 .contact-2-1-2 .remove-btn:hover:after {
+          transform: rotate(-128deg); }
+      .contact-2 .contact-2-1 .contact-2-1-2 .dropzone {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-width: 2px;
+        border-radius: 2px;
+        border-color: #bdbdbd;
+        border-style: dashed;
+        background-color: #fafafa;
+        color: #bdbdbd;
+        outline: none;
+        transition: border 0.24s ease-in-out;
+        cursor: pointer; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .resume-cv {
+        top: -40px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .upload-size {
+        font-size: 12px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1wa3eu0-placeholder,
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1uccc91-singleValue,
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-26l3qy-menu {
+        font-size: "Source Sans Pro", sans-serif;
+        letter-spacing: 0.1em !important; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .group {
+        position: relative;
+        margin: 35px 0;
+        width: 100%; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .group .warning {
+          font-size: 12px;
+          text-align: right;
+          color: red;
+          font-weight: bold;
+          margin-bottom: -31px; }
+          .contact-2 .contact-2-1 .contact-2-1-2 .group .warning img {
+            vertical-align: middle;
+            margin-right: 10px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 textarea {
+        resize: none; }
+      .contact-2 .contact-2-1 .contact-2-1-2 input,
+      .contact-2 .contact-2-1 .contact-2-1-2 textarea {
+        background: none;
+        font-size: 16px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #c6c6c6;
+        letter-spacing: 0.1em; }
+        .contact-2 .contact-2-1 .contact-2-1-2 input:focus,
+        .contact-2 .contact-2-1 .contact-2-1-2 textarea:focus {
+          outline: none; }
+        .contact-2 .contact-2-1 .contact-2-1-2 input:focus ~ label,
+        .contact-2 .contact-2-1 .contact-2-1-2 input:valid ~ label,
+        .contact-2 .contact-2-1 .contact-2-1-2 textarea:focus ~ label,
+        .contact-2 .contact-2-1 .contact-2-1-2 textarea:valid ~ label {
+          top: -14px;
+          font-size: 12px;
+          color: #3b4349; }
+        .contact-2 .contact-2-1 .contact-2-1-2 input:focus ~ .bar:before,
+        .contact-2 .contact-2-1 .contact-2-1-2 textarea:focus ~ .bar:before {
+          width: 100%; }
+      .contact-2 .contact-2-1 .contact-2-1-2 input[type="password"] {
+        letter-spacing: 0.3em; }
+      .contact-2 .contact-2-1 .contact-2-1-2 label {
+        opacity: 0.5;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 300ms ease all;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+        font-family: "Source Sans Pro", sans-serif; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .bar {
+        position: relative;
+        display: block;
+        width: 100%; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .bar:before {
+          content: "";
+          height: 2px;
+          width: 0;
+          bottom: 0px;
+          position: absolute;
+          background: #3b4349;
+          transition: 300ms ease all;
+          left: 0%; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .btn {
+        background: #fff;
+        color: #959595;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+        .contact-2 .contact-2-1 .contact-2-1-2 .btn:hover {
+          color: #8b8b8b;
+          box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12); }
+        .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-link {
+          background: #2196f3;
+          color: #d3eafd; }
+          .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-link:hover {
+            background: #0d8aee;
+            color: #deeffd; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-submit {
+          background: #ffb500;
+          font-family: "Source Sans Pro", sans-serif;
+          color: white;
+          width: 100%;
+          height: 52px;
+          border-radius: 25px;
+          font-weight: bold;
+          letter-spacing: 4px;
+          cursor: pointer; }
+          .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-submit:hover {
+            background: #e6a300;
+            color: white; }
+        .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-cancel {
+          background: #eee; }
+          .contact-2 .contact-2-1 .contact-2-1-2 .btn.btn-cancel:hover {
+            background: #e1e1e1;
+            color: #8b8b8b; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .btn-box {
+        text-align: center;
+        margin: 50px 0; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-yk16xz-control,
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1pahdxg-control {
+        border-radius: 0px;
+        border-width: 0px 0px 1px 0px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1pahdxg-control:hover {
+        border-color: white;
+        box-shadow: none; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-g1d714-ValueContainer {
+        padding: 2px 0px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1okebmr-indicatorSeparator {
+        width: 0px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-tlfecz-indicatorContainer,
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1gtu0rj-indicatorContainer {
+        color: #f3b640; }
+
+@media (max-width: 768px) {
+  #contact .header-text {
+    font-size: 23px;
+    line-height: 30px; }
+  #contact .contact-1 h3 {
+    font-size: 23px;
+    line-height: 26px; }
+  .contact-main .google-map {
+    height: 300px; }
+  .contact-2 {
+    padding: 0 20px; }
+    .contact-2 .contact-2-1 .contact-2-1-1 {
+      margin-top: 0;
+      width: 100%; }
+      .contact-2 .contact-2-1 .contact-2-1-1 .contact img {
+        width: 25px; }
+      .contact-2 .contact-2-1 .contact-2-1-1 .contact p {
+        font-size: 15px;
+        line-height: 30px; }
+    .contact-2 .contact-2-1 .contact-2-1-2 {
+      width: 100%; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .group {
+        margin: 25px 0; }
+      .contact-2 .contact-2-1 .contact-2-1-2 label {
+        font-size: 13px; }
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1wa3eu0-placeholder,
+      .contact-2 .contact-2-1 .contact-2-1-2 .css-1uccc91-singleValue {
+        font-size: 13px; } }

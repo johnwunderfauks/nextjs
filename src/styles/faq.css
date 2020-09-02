@@ -1,0 +1,107 @@
+.faq {
+  background: white;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: -120px;
+  position: relative;
+  /* Accordion styles */ }
+  .faq .faq-1 {
+    padding: 40px; }
+    .faq .faq-1 h3 {
+      font-family: "EB Garamond", serif;
+      color: #464748;
+      font-weight: 500;
+      margin-bottom: 40px;
+      font-size: 18px;
+      letter-spacing: 0.345em;
+      line-height: 24px; }
+  .faq input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1; }
+  .faq .row {
+    display: flex;
+    padding-right: 25px;
+    padding-bottom: 30px; }
+    .faq .row .col {
+      flex: 1; }
+      .faq .row .col:last-child {
+        margin-left: 1em; }
+  .faq .tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative; }
+  .faq .tab {
+    width: 100%;
+    overflow: hidden; }
+    .faq .tab-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      font-weight: bold;
+      cursor: pointer; }
+      .faq .tab-label::after {
+        content: "";
+        transform: rotate(180deg);
+        position: absolute;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        background: transparent url(".././images/arrow-up.png") center/contain no-repeat;
+        transition: all 0.35s; }
+    .faq .tab-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: #2c3e50;
+      background: white;
+      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .faq .tab-label {
+    color: #3b4349 !important;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: .0025em;
+    margin: 20px auto 20px;
+    font-family: "EB Garamond", serif;
+    max-width: 90%;
+    margin-left: 0;
+    padding-bottom: 0; }
+  .faq .tab-content {
+    color: #7c8080 !important;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .007em;
+    padding-left: 30px; }
+  .faq .tab-seperator {
+    border-bottom: 1px solid #c0c2c377;
+    width: calc(100% - 32px);
+    margin: auto; }
+  .faq input:checked + .tab-label::after {
+    transform: rotate(0); }
+  .faq input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding-top: 0;
+    padding-bottom: 1em; }
+
+.faq-header-text {
+  top: 40vh; }
+
+@media (max-width: 768px) {
+  .faq-header-text {
+    top: 120px; }
+  .faq {
+    width: 100%; }
+    .faq .faq-1 {
+      padding: 20px; }
+      .faq .faq-1 h3 {
+        font-size: 11px;
+        line-height: 15px; }
+    .faq .tab-label {
+      font-size: 18px;
+      line-height: 27px;
+      margin-top: 10px; }
+    .faq .tab-content {
+      font-size: 15px;
+      line-height: 24px; } }

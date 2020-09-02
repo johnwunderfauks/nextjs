@@ -1,0 +1,94 @@
+@import "./variables.scss";
+
+#pre-loader{
+  background-color: #000;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000000;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  // transform: scale(1.5);
+  canvas{
+    position: absolute;
+    left:50%;
+    top:0;
+    z-index: 1;
+    margin-left:-750px;
+    // width:1920px !important;
+    // height: 1000px !important;
+    
+  }
+  img {
+    // display:none;
+  }
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: $s-font;
+  }
+
+  .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  button {
+    height: 3em;
+    width: 6em;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+  }
+  button:hover {
+    color: black;
+    background-color: #00baff;
+  }
+  button:focus {
+    border: 1px solid #00baff;
+  }
+  button:active {
+    background-color: #1f1f1f;
+    color: white;
+  }
+}
+
+.rotate {
+  // animation: rotation 30s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width:768px) {
+  canvas {
+    width:100% !important;
+    height:100% !important;
+  }
+  #pre-loader{
+    transform : scale(1);
+    canvas{
+      left:0;
+      margin-left:0;
+    }
+  }
+}
